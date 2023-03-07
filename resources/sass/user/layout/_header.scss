@@ -58,16 +58,9 @@
     transform: translateY(-50%);
 
     .btn-signup {
+      @extend %main-button;
       height: 48px;
-      background: $main-color;
-      border-radius: 5px;
       padding: 0 38px;
-      font-size: 14px;
-      line-height: 24px;
-      text-align: center;
-      letter-spacing: -0.3px;
-      text-transform: uppercase;
-      color: #fff;
       margin-left: 20px;
     }
   }
