@@ -1,33 +1,74 @@
 .header {
-  padding: 18px 0;
   &__container {
     max-width: 1170px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .menu {
-    ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    position: relative;
+    height: 80px;
+    width: 100%;
 
-      li {
-        margin-right: 30px;
+    .logo {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
 
-        &:last-child {
-          margin-right: 0;
-        }
+    .menu {
+      width: 100%;
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-        a {
-          font-size: 15px;
-          line-height: 24px;
-          letter-spacing: -0.3px;
-          text-transform: uppercase;
-          color: #7B88A8;
+        li {
+          margin-right: 30px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          a {
+            font-size: 15px;
+            line-height: 24px;
+            letter-spacing: -0.3px;
+            text-transform: uppercase;
+            color: #7B88A8;
+          }
+
+          &.active {
+            a {
+              color: #2D3958;
+            }
+          }
         }
       }
+    }
+  }
+
+  &__auth {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    .btn-signup {
+      height: 48px;
+      background: #886CFF;
+      border-radius: 5px;
+      padding: 0 38px;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: -0.3px;
+      text-transform: uppercase;
+      color: #fff;
+      margin-left: 20px;
     }
   }
 }

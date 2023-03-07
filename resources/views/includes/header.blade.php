@@ -5,25 +5,28 @@
         </div>
         <nav class="menu">
             <ul>
-                <li>
+                <li class="active">
                     <a href="">Home</a>
                 </li>
                 <li>
-                    <a href="">Service</a>
+                    <a href="#">Service</a>
                 </li>
                 <li>
-                    <a href="">About</a>
+                    <a href="#">About</a>
                 </li>
                 <li>
-                    <a href="">Blog</a>
+                    <a href="#">Blog</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="#">Contact</a>
                 </li>
             </ul>
         </nav>
-        <div class="header__link">
-
+        <div class="header__auth">
+            <a href="#" class="btn-search">
+                <img src="{{ Vite::asset('resources/images/ic_search.svg') }}" alt="" width="24">
+            </a>
+            <a href="#" class="btn-signup d-inline-flex justify-content-center align-items-center">Sign Up</a>
         </div>
     </div>
 </header>
