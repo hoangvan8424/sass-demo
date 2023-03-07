@@ -1,9 +1,33 @@
 .header {
+  padding: 18px 0;
   &__container {
     max-width: 1170px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .menu {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      li {
+        margin-right: 30px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        a {
+          font-size: 15px;
+          line-height: 24px;
+          letter-spacing: -0.3px;
+          text-transform: uppercase;
+          color: #7B88A8;
+        }
+      }
+    }
   }
 }
