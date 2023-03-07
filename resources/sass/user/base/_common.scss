@@ -1,0 +1,73 @@
+body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+.container__main {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.img_wrap {
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.pc {
+    display: none !important;
+    @include mq-md() {
+        display: block !important;
+    }
+}
+.pc_flex {
+    display: none !important;
+    @include mq-md() {
+        display: flex !important;
+    }
+}
+.sp {
+    display: block !important;
+    @include mq-md() {
+        display: none !important;
+    }
+}
+.sp_flex {
+    display: flex !important;
+    @include mq-md() {
+        display: none !important;
+    }
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+.content-title {
+    font-size: 36px;
+    line-height: 52px;
+    letter-spacing: -0.02rem;
+    font-weight: 700;
+    color: #114F5A;
+    @include mq-sm() {
+        font-size: 48px;
+    }
+}
+.content-desc {
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: -0.02rem;
+    color: $textColor;
+    font-weight: 500;
+    @include mq-sm() {
+        font-size: 16px;
+        letter-spacing: -0.05rem;
+    }
+}
+.fw-600 {
+    font-weight: 600 !important;
+}

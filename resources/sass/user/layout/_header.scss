@@ -1,0 +1,145 @@
+.header-container {
+    font-family: 'Hiragino Kaku Gothic Std', sans-serif;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 15px 20px;
+    &.fixed {
+        background-color: rgba(255,255,255,0.5);
+    }
+    @include mq-md() {
+        padding: 28px 30px;
+    }
+    .header {
+        min-height: inherit;
+        border: none;
+        max-width: 1380px;
+        margin: 0 auto;
+        .logo_img {
+            width: 90px;
+            height: 24px;
+            @include mq-xs() {
+                width: 75px;
+                height: 20px;
+            }
+        }
+        .header__right {
+            .list__header {
+                margin: 0;
+                list-style: none;
+                .list__header_item {
+                    @include mq-sm() {
+                        margin-right: 22px;
+                    }
+                    @include mq-lg() {
+                        margin-right: 30px;
+                    }
+                    @include mq-xl() {
+                        &:first-child {
+                            margin-right: 70px;
+                        }
+                        &:nth-child(2) {
+                            margin-right: 80px;
+                        }
+                        &:nth-child(3) {
+                            margin-right: 76px;
+                        }
+                        &:last-child {
+                            margin-right: 79px;
+                        }
+                    }
+                }
+                .list__header_link {
+                    color: $textColor;
+                    text-decoration: none;
+                    font-size: 12px;
+                    line-height: 16px;
+                    font-weight: 300;
+                    &.active {
+                        color: $blue_114;
+                    }
+                }
+            }
+        }
+        .btn__header {
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $white;
+            font-size: 12px;
+            line-height: 19px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            @include mq-sm() {
+                width: 195px;
+            }
+            @include mq-xs() {
+                width: 195px;
+                border-radius: 25px;
+            }
+            @include mq-md() {
+                border-radius: 0;
+                width: 110px;
+            }
+            @include mq-lg() {
+                width: 150px;
+            }
+        }
+        .btn__register {
+            background-color: $blue_F5A;
+            margin-bottom: 20px;
+            @include mq-md() {
+                margin-bottom: 0;
+                margin-right: 20px;
+            }
+        }
+        .btn__login {
+            background-color: $yellow_E00;
+        }
+
+        .header__menu_sp {
+            position: absolute;
+            z-index: 9999;
+            top: 0;
+            height: 100vh;
+            left: 0;
+            right: 0;
+            background-color: $white;
+            transform: translateY(-100%);
+            transition: all .3s ease-out;
+            &.active {
+                transform: translateY(0);
+            }
+            .header__top {
+                padding: 0 20px;
+                padding-top: 15px;
+                margin-bottom: 80px;
+            }
+            .list__header {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                .list__header_item {
+                    margin-bottom: 55px;
+                }
+                .list__header_link {
+                    color: $textColor;
+                    text-decoration: none;
+                    font-size: 14px;
+                    line-height: 16px;
+                    font-weight: 300;
+                    @include mq-xs() {
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+        .btn_showMenu {
+            cursor: pointer;
+        }
+    }
+}
+
