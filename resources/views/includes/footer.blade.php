@@ -86,7 +86,7 @@
         </div>
         <div class="copyright d-flex justify-content-between align-items-center">
             <div class="txt-copyright">
-                © 2022 Pollock LLC. All Rights Reserved. Terms & Conditions. Privacy Policy.
+                © 2022 Pollock LLC. All Rights Reserved.
             </div>
             <div class="social">
                 <a href="#" target="_blank">
