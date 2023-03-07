@@ -5,11 +5,11 @@
 @import "user/abstracts/variables";
 
 @import "user/base/reset";
+@import "user/base/common";
 
 @import "user/layout/header";
 @import "user/layout/footer";
 
-@import "user/components/buttons";
 @import "user/components/slider";
 
 @import "user/pages/home";

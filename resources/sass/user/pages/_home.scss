@@ -57,12 +57,7 @@
   padding: 100px 90px;
 
   .title {
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 56px;
-    text-align: center;
-    letter-spacing: -2px;
-    color: $link-color;
+    @extend %title;
     margin-bottom: 100px;
   }
 
@@ -157,6 +152,18 @@
 
 .review {
   padding: 100px 0 113px;
+
+  .title {
+    @extend %title;
+    margin-bottom: 30px;
+  }
+
+  .re-desc {
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: #7B88A8;
+  }
 
   &__list {
     margin: 0 -15px;
