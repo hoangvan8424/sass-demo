@@ -46,7 +46,7 @@
       }
 
       .nav-subscribe {
-        font-family: 'DM Sans', sans-serif;
+        font-family: $font-family-secondary;
         .nav-desc {
           font-size: 16px;
           line-height: 26px;
@@ -80,7 +80,7 @@
               font-weight: 400;
               font-size: 16px;
               line-height: 26px;
-              color: #7B88A8;
+              color: $desc-color;
               opacity: 0.7;
             }
           }
@@ -89,7 +89,7 @@
             height: 48px;
             background: $main-color;
             border-radius: 5px;
-            font-family: 'Outfit', sans-serif;
+            font-family: $font-family-primary;
             font-style: normal;
             font-weight: 500;
             font-size: 14px;
@@ -112,7 +112,7 @@
 
   .copyright {
     padding: 27px 0;
-    border-top: 1px solid #7B88A8;
+    border-top: 1px solid $desc-color;
     .txt-copyright {
       font-size: 16px;
       line-height: 26px;
