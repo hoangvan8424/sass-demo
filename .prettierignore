@@ -8,4 +8,4 @@ package.json
 /resources/js
 vite.config.js
 README.md
-.prettierrc
+.prettierrc.json
