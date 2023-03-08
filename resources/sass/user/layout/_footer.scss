@@ -1,6 +1,6 @@
 .footer {
-  background: #292F3A;
-  color: #E7E5EA;
+  background: #292f3a;
+  color: #e7e5ea;
   &__container {
     max-width: 1170px;
     margin: 0 auto;
@@ -30,7 +30,7 @@
             line-height: 24px;
             letter-spacing: -0.3px;
             text-transform: uppercase;
-            color: #E7E5EA;
+            color: #e7e5ea;
           }
 
           &:not(:first-of-type) {
@@ -57,19 +57,19 @@
           font-size: 14px;
           line-height: 24px;
           letter-spacing: -0.3px;
-          color: #E7E5EA;
+          color: #e7e5ea;
         }
 
         .subscribe-form {
           .form-group {
             margin-bottom: 15px;
           }
-          input[type="email"] {
+          input[type='email'] {
             width: 235px;
             height: 48px;
             left: 1175px;
             top: 8515px;
-            background: #E7E5EA;
+            background: #e7e5ea;
             border-radius: 5px;
             padding: 11px 18px;
             outline: none;
@@ -85,7 +85,7 @@
             }
           }
 
-          button[type="submit"] {
+          button[type='submit'] {
             height: 48px;
             background: $main-color;
             border-radius: 5px;

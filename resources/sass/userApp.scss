@@ -1,16 +1,15 @@
 // Bootstrap
-@import "~bootstrap/scss/bootstrap";
+@import '~bootstrap/scss/bootstrap';
 
-@import "user/abstracts/mixins";
-@import "user/abstracts/variables";
+@import 'user/abstracts/mixins';
+@import 'user/abstracts/variables';
 
-@import "user/base/reset";
-@import "user/base/common";
+@import 'user/base/reset';
+@import 'user/base/common';
 
-@import "user/layout/header";
-@import "user/layout/footer";
+@import 'user/layout/header';
+@import 'user/layout/footer';
 
-@import "user/components/slider";
+@import 'user/components/slider';
 
-@import "user/pages/home";
-
+@import 'user/pages/home';

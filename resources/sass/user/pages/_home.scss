@@ -1,6 +1,6 @@
 .mv {
   height: 100vh;
-  background-image: url("../images/mv.png");
+  background-image: url('../images/mv.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
@@ -27,7 +27,7 @@
       margin-bottom: 40px;
 
       span {
-        background: linear-gradient(90deg, #FFC0EC -0.92%, #857FFF 100%);
+        background: linear-gradient(90deg, #ffc0ec -0.92%, #857fff 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -41,7 +41,7 @@
       line-height: 28px;
       text-align: center;
       letter-spacing: -0.3px;
-      color: #E7E5EA;
+      color: #e7e5ea;
       margin-bottom: 71px;
     }
 
@@ -116,14 +116,13 @@
 
 .statistical {
   padding: 100px 0;
-  background: #292F3A;
+  background: #292f3a;
 
   &__list {
     display: flex;
   }
 
   &__item {
-
     .numbers {
       font-weight: 500;
       font-size: 64px;
@@ -162,7 +161,7 @@
     font-size: 22px;
     line-height: 32px;
     letter-spacing: -1px;
-    color: #7B88A8;
+    color: #7b88a8;
   }
 
   &__list {
@@ -215,7 +214,7 @@
         &--active {
           svg {
             path {
-              fill: #F9E492;
+              fill: #f9e492;
             }
           }
         }

@@ -1,0 +1,10 @@
+/vendor
+.eslintrc.js
+composer.json
+composer.lock
+package-lock.json
+package.json
+/public
+/resources/js
+vite.config.js
+README.md
