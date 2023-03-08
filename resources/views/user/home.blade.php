@@ -20,8 +20,8 @@
             <div class="main__container service__container">
                 <h2 class="title text-center">A design and branding agency in New York</h2>
                 <div class="service__list">
-                    <div class="service__item d-flex">
-                        <div class="col-left">
+                    <div class="service__item row">
+                        <div class="col-md-6 col-left">
                             <h3 class="item-title">SEO-focused WordPress web design and marketing agency</h3>
                             <div class="item-desc">
                                 A brand today is all about how it makes your customers feel. It's not a logo, visual identity, or digital product design. but rather a cohesive system that spans across all mediums and touchpoints.<br>
@@ -29,12 +29,12 @@
                             </div>
                             <a href="#" class="view-more-btn">Learn More</a>
                         </div>
-                        <div class="col-lg-6 col-right">
+                        <div class="col-md-6 col-right">
                             <img src="{{ Vite::asset('resources/images/service_1.png') }}" alt="">
                         </div>
                     </div>
-                    <div class="service__item service__item--revert d-flex">
-                        <div class="col-lg-6 col-left">
+                    <div class="service__item service__item--revert row">
+                        <div class="col-md-6 col-left">
                             <h3 class="item-title">Branding has never been more agile than it is today</h3>
                             <div class="item-desc">
                                 A brand today is all about how it makes your customers feel. It's not a logo, visual identity, or digital product design. but rather a cohesive system that spans across all mediums and touchpoints.<br>
@@ -42,12 +42,12 @@
                             </div>
                             <a href="#" class="view-more-btn">Discover Now</a>
                         </div>
-                        <div class="col-right">
+                        <div class="col-md-6 col-right">
                             <img src="{{ Vite::asset('resources/images/service_2.png') }}" alt="">
                         </div>
                     </div>
-                    <div class="service__item d-flex">
-                        <div class="col-lg-6 col-left">
+                    <div class="service__item row">
+                        <div class="col-md-6 col-left">
                             <h3 class="item-title">We are a digital product and user experience design agency</h3>
                             <div class="item-desc">
                                 A brand today is all about how it makes your customers feel. It's not a logo, visual identity, or digital product design. but rather a cohesive system that spans across all mediums and touchpoints.<br>
@@ -55,7 +55,7 @@
                             </div>
                             <a href="#" class="view-more-btn">Contact Us</a>
                         </div>
-                        <div class="col-lg-6 col-right">
+                        <div class="col-md-6 col-right">
                             <img src="{{ Vite::asset('resources/images/service_3.png') }}" alt="">
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                 <h2 class="title text-center">What our clients are saying about us</h2>
                 <p class="re-desc text-center">Customer satisfaction is a primary goal for our company</p>
                 <div class="row review__list">
-                    <div class="col-lg-4 review__item text-center">
+                    <div class="col-md-4 review__item text-center">
                         <div class="item-group">
                             <div class="avatar">
                                 <img src="{{ Vite::asset('resources/images/avatar_1.png') }}" alt="">
@@ -127,7 +127,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 review__item text-center">
+                    <div class="col-md-4 review__item text-center">
                         <div class="item-group">
                             <div class="avatar">
                                 <img src="{{ Vite::asset('resources/images/avatar_2.png') }}" alt="">
@@ -166,7 +166,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 review__item text-center">
+                    <div class="col-md-4 review__item text-center">
                         <div class="item-group">
                             <div class="avatar">
                                 <img src="{{ Vite::asset('resources/images/avatar_3.png') }}" alt="">

@@ -62,13 +62,25 @@
   }
 
   &__item {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    align-items: center;
+
+    @include mq-lg {
+      align-items: flex-start;
+    }
+
+    @include mq-lg {
+      margin-bottom: 100px;
+    }
 
     &:last-of-type {
       margin-bottom: 0;
     }
     .col-left {
-      padding: 50px 100px 50px 0;
+
+      @include mq-lg {
+        padding: 50px 100px 50px 0;
+      }
 
       .item-title {
         font-weight: 500;
@@ -95,7 +107,6 @@
     }
 
     .col-right {
-      width: 50%;
       border-radius: 20px;
       overflow: hidden;
 
@@ -108,7 +119,10 @@
       flex-direction: row-reverse;
 
       .col-left {
-        padding: 50px 0 50px 100px;
+
+        @include mq-lg {
+          padding: 50px 0 50px 100px;
+        }
       }
     }
   }
@@ -150,7 +164,7 @@
 }
 
 .review {
-  padding: 100px 0 113px;
+  padding: 100px 20px 113px;
 
   .title {
     @extend %title;
