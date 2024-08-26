@@ -1,5 +1,6 @@
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @import 'user/abstracts/mixins';
 @import 'user/abstracts/variables';
